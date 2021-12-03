@@ -1,0 +1,218 @@
+body {
+    background-image: url(../img/how-does-it-work/body-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#how-does-it-work {
+    display: block;
+}
+#tools-and-principles {
+    display: none;
+}
+#secure-data {
+    display: none;
+}
+#guide {
+    display: none;
+}
+
+
+.main-section_hero_primary {
+    padding-top: 207px;
+    padding-left: 19px;
+}
+.main-section_hero {
+    padding-top: 330px;
+    padding-left: 160px;
+}
+.hero__top_primary {
+    font-size: 250px;
+    font-weight: 700;
+    color: #FFFFFF80;
+    position: relative;
+    transition: .5s;
+}
+.hero__mid_primary {
+    font-size: 100px;
+    font-weight: 600;
+    color: #FFFFFFCC;
+    position: absolute;
+    right: -99px;
+    bottom: 41px;
+    transition: .5s;
+}
+.hero__bot_primary {
+    font-size: 180px;
+    font-weight: 700;
+    color: #a1a3a4;
+    position: absolute;
+    bottom: -110px;
+    right: -350px;
+    transition: .5s;
+}
+/*  */
+.hero__top {
+    font-size: 180px;
+    font-weight: 700;
+    color: #FFFFFF80;
+    position: relative;
+    transition: .5s;
+}
+.hero__mid {
+    font-size: 100px;
+    font-weight: 600;
+    color: #FFFFFFCC;
+    position: absolute;
+    right: 8px;
+    bottom: -3px;
+    transition: .5s;
+}
+.hero__bot {
+    font-size: 50px;
+    font-weight: 700;
+    color: #a1a3a4;
+    position: absolute;
+    right: 20px;
+    bottom: -31px;
+    transition: .5s;
+}
+.hero__mid_primary > span {
+    display: inline;
+}
+.hero__bot_primary > span {
+    display: none;
+}
+.hero__mid > span {
+    display: none;
+}
+.hero__bot > span {
+    display: none;
+}
+
+.content > ul > li {
+    list-style-type: disc;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1500px) 
+    and (max-width: 1700px) {
+        #how-does-it-work .content-second li:last-child {
+            display: inline-block;
+            max-width: 570px;
+        }
+        .main-section_hero {
+            padding-left: 90px;
+        }
+}
+
+
+@media (max-width: 1499px) {
+    .hero__top, .hero__top_primary {
+        font-size: 150px;
+    }
+    .hero__mid, .hero__mid_primary {
+        font-size: 50px;
+        right: 3px;
+        bottom: 2px;
+    }
+    .main-section_hero_primary, .main-section_hero {
+        padding-top: 93px;
+        padding-left: 58px;
+    }
+    .hero__bot_primary {
+        font-size: 120px;
+        bottom: -100px;
+        right: -220px;
+    }
+    .hero__bot {
+        font-size: 100px;
+        bottom: -87px;
+        right: 0px;
+    } 
+}
+@media (max-width: 1199px) {
+    div.main-section_hero_primary {
+        padding-left: 0;
+        padding-bottom: 120px;
+        padding-right: 250px;
+    }
+    div.main-section_hero {
+        padding: 0;
+        padding-right: 100px;
+    }
+    .hero__top_primary {
+        font-size: 120px;
+        height: 146px;
+    }
+    .hero__top {
+        font-size: 70px;
+        height: auto;
+    }
+    .hero__mid_primary {
+        font-size: 50px;
+        right: -28px;
+        bottom: -30px;
+        width: 200px;
+    }
+    .hero__mid {
+        font-size: 25px;
+        bottom: 32px;
+        right: -104px;
+        width: 100px;
+    }
+    .hero__bot_primary {
+        font-size: 110px;
+        bottom: -113px;
+        right: -220px;
+    }
+    .hero__bot {
+        font-size: 30px;
+        bottom: 9px;
+        right: -100px;
+    } 
+}
+@media (max-width: 767px) {
+    div.main-section_hero_primary {
+        padding-bottom: 60px;
+        padding-right: 0;
+    }
+    div.main-section_hero {
+        padding: 0;
+        padding-right: 50px;
+    }
+    .hero__top_primary {
+        font-size: 70px;
+        height: 85px;
+    }
+    .hero__top {
+        font-size: 30px;
+        height: auto;
+    }
+    .hero__mid_primary {
+        font-size: 25px;
+        right: -12px;
+        bottom: -5px;
+        width: auto;
+    }
+    .hero__mid {
+        font-size: 12px;
+        bottom: 15px;
+        right: -44px;    
+        width: 42px;
+    }
+    .hero__bot_primary {
+        font-size: 60px;
+        bottom: -56px;
+        right: -27px;
+    }
+    .hero__bot {
+        width: auto;
+        font-size: 15px;
+        bottom: 5px;
+        right: -51px;
+    } 
+}
+
+
+

@@ -1,0 +1,181 @@
+body {
+    background-image: url(../img/index/body-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.roles {
+    width: 733px;
+    margin: auto;
+}
+.roles__title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.roles__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.roles__item {
+    display: block;
+    height: 183px;
+    margin-bottom: 60px;
+}
+.roles__big {
+    font-size: 120px;
+    font-weight: 700;
+    color: #8e8a88;
+    position: relative;
+    transition: .3s;
+}
+.roles__small {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 24px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    transition: .1s;
+}
+.roles__big::after {
+    content: '';
+    width: 0px;
+    height: 7px;
+    background-color: #3C7097;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    transition: .2s;
+}
+.exp::after {
+    background-color: #856C4D; 
+}
+.bsn::after {
+    background-color: #799429;
+}
+.usr::after {
+    background-color: #369CBC;
+}
+.roles__big:hover {
+    font-size: 150px;
+}
+.roles__big:hover .roles__small {
+    font-size: 40px;
+    font-weight: 700;
+}
+.roles__big:hover:after {
+    width: 80px
+}
+.share {
+    position: fixed;
+    margin-left: 10px;
+    bottom: 46vh;
+}
+.share-icon_wrapper, .chat-icon_wrapper {
+    width: 60px;
+    height: 70.5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+.share-icon_wrapper:hover, .chat-icon_wrapper:hover {
+    background-color: #ffffffd8;
+}
+.share-icon_wrapper {
+    border-radius: 50px 50px 0 0;
+    border-bottom: 1px solid #828282;
+}
+.chat-icon_wrapper {
+    border-radius: 0 0 50px 50px;
+}
+@media (max-width: 1499px) {
+    .roles {
+        width: 539px;
+    }
+    .roles__title {
+        font-size: 25px;
+        margin-bottom: 3px;
+    }
+    .roles__item {
+        height: 146px;
+        margin-bottom: 23px;
+    }
+    .roles__big {
+        font-size: 100px;
+    }
+    .roles__big:hover {
+        font-size: 120px;
+    }
+    .roles__big:hover .roles__small {
+        font-size: 30px;
+        bottom: 22px;
+    }
+    .roles__small {
+        font-size: 30px;
+        bottom: 17px;
+    }
+
+}
+@media (max-width: 1199px) {
+    .roles__item {
+        margin-bottom: 81px;
+    }
+    .share {
+        bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .roles {
+        width: 100%;
+    }
+    .roles__item {
+        margin-bottom: 15px;
+    }
+    .roles__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .share {
+        bottom: 15px;
+    }
+}
+@media (max-width: 414px) {
+
+    .roles__title {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .roles__item {
+        height: 85px;
+        margin-bottom: 15px;
+    }
+    .roles__big {
+        font-size: 60px;
+    }
+    .roles__big::after {
+        height: 4px;
+    }
+    .roles__big:hover:after {
+        bottom: 11px;
+        width: 44px;
+    }
+    .roles__big:hover {
+        font-size: 70px;
+    }
+    .roles__big:hover .roles__small {
+        bottom: 13px;
+        font-size: 15px;
+    }
+    .roles__small {
+        font-size: 15px;
+        bottom: 11px;
+    }
+} 
+

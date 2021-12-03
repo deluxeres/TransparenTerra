@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TransparenTerra</title>
+    
+    <link rel="stylesheet" href="style/how-does-it-work.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script defer src="js/nav.js"></script>
+</head>
+<body id="body">
+    <div id="how-does-it-work">
+        <div id="video-bg">
+            <div class="bg-darken"></div>
+            <video class="hd" width="100%" height="auto" preload="auto" muted="muted" autoplay="autoplay"
+            loop="loop" poster="img/how-does-it-work/body-bg.jpg">
+                <source src="img/how-does-it-work/video-bg.mp4" type="video/mp4"></source>
+            </video>
+            <video class="fullhd" width="100%" height="auto" preload="auto" muted="muted" autoplay="autoplay"
+            loop="loop" poster="img/how-does-it-work/body-bg.jpg">
+                <source src="img/how-does-it-work/video-bg.mp4" type="video/mp4"></source>
+            </video>
+        </div>
+        <!-- header -->
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/header/768logo.svg" alt="logo" class="logo__image pxBig">
+                        <img src="img/header/768logo.svg" alt="" class="logo_image px720">
+                        <img src="img/header/320logo.svg" alt="" class="logo_image px320">
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <span class="header-nav__item">
+                        <img src="img/header/web-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">ENG</span>
+                    </span>
+                    <a href="#" class="header-nav__item">
+                        <img src="img/header/exit-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">Sign in</span>
+                    </a>
+                    <a href="#" class="header-nav__item">
+                        <img src="img/header/menu-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">CLOSE</span>
+                    </a>
+                </nav>
+            </header>
+        </div>
+    
+        <!-- hero -->
+        <main>
+            <section class="main-section">
+                <div class="main-section_hero_primary">
+                    <span class="hero__top_primary">How
+                        <span class="hero__mid_primary">does <span>it</span></span> 
+                        <span class="hero__bot_primary"><span>it</span> work?</span>
+                    </span>
+                </div>
+            </section>
+            
+            <section class="content-first content">
+                TransparenTerra is a digital platform designed to restore trust. It brings together qualified experts, business owners, professional ESG investors, and consumers to build a resilient economy and sustainable future.
+            </section>
+            <section class="content content-second">
+                <ul>
+                    <li>
+                        On TransparenTerra, businesses can calculate their ESG scores, buy offset certificates, attract ESG investors, leverage expert consulting to improve their business sustainability, and increase their users’ loyalty.
+                    </li>
+                    <li>
+                        Experts can provide consultations, host webinars, organize conferences, issue certificates, support investors with proper assignments for sustainable investments, blog and share their opinions, invite other experts, investors, and businesses to <span>the community, and expand their network.</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="content-third content">
+                <ul>
+                    <li>
+                        ESG professional investors gain access to a list of companies with calculated ESG scores, expert assessments of companies, and can sign - documents directly on the platform using blockchain-based notarization. 
+                    </li>
+                    <li>
+                        TransparenTerra users can buy products and services that are truly sustainable and have a transparent origin, read blogs, and participate in webinars and join professional groups.
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!-- nav -->
+        <nav class="nav">
+            <div class="nav__item nav__item_active">
+                <a class="nav__item-first HDIWmain">
+                    <span class="nav__item-title">How does it work?</span>
+                    <span class="nav__item-count nav__item-count_active">1</span>
+                </a>
+                <div class="nav__sub-list nav__sub-list_active">
+                    <a class="nav__sub-item" id="HDIWfirst"></a>
+                    <a class="nav__sub-item" id="HDIWsecond"></a>
+                    <a class="nav__sub-item" id="HDIWthird"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first TAPmain">
+                    <span class="nav__item-title">Principles and tools</span>
+                    <span class="nav__item-count">2</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first SDmain">
+                    <span class="nav__item-title">Secure Data</span>
+                    <span class="nav__item-count">3</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first Gmain">
+                    <span class="nav__item-title">The guide</span>
+                    <span class="nav__item-count">4</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- tools-and-principles -->
+    <div id="tools-and-principles">
+        <div id="video-bg">
+            <div class="bg-darken"></div>
+            <video class="hd" width="100%" height="auto" preload="auto" muted="muted" autoplay="autoplay"
+            loop="loop" poster="img/tools-and-prindiples/body-bg.jpg">
+                <source src="img/tools-and-prindiples/video-bg.mp4" type="video/mp4"></source>
+            </video>
+            <video class="fullhd" width="100%" height="auto" preload="auto" muted="muted" autoplay="autoplay"
+            loop="loop" poster="img/how-does-it-work/body-bg.jpg">
+                <source src="img/tools-and-prindiples/video-bgFULL.mp4" type="video/mp4"></source>
+            </video>
+        </div>
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/header/768logo.svg" alt="logo" class="logo__image pxBig">
+                        <img src="img/header/768logo.svg" alt="" class="logo_image px720">
+                        <img src="img/header/320logo.svg" alt="" class="logo_image px320">
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <span class="header-nav__item">
+                        <img src="img/header/web-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">ENG</span>
+                    </span>
+                    <a href="#" class="header-nav__item">
+                        <img src="img/header/exit-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">Sign in</span>
+                    </a>
+                    <a href="#" class="header-nav__item">
+                        <img src="img/header/menu-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">CLOSE</span>
+                    </a>
+                </nav>
+            </header>
+        </div>
+    
+        <!-- hero -->
+        <main>
+            <section class="main-section">
+                <div class="main-section_hero_primary">
+                    <span class="hero__top_primary">Tools
+                        <span class="hero__title_primary">Transparen<span>Terra’s</span></span>
+                        <span class="hero__mid_primary">and</span> 
+                        <span class="hero__bot_primary">principles</span>
+                    </span>
+                </div>
+            </section>
+            
+            <section class="content-first content">
+                <p>
+                    On TransparenTerra, transparency and trustworthy validation of data provide the basis for ultimate trust. To make them available, we’ve designed and assembled a pool of convenient digital tools and solutions, including:
+                </p>
+                <ul>
+                    <li>- An ESG score calculator;</li>
+                    <li>- Environmental footprint calculators;</li>
+                    <li>- Circular economy tools;</li>
+                    <li>- A Trustworthy traceability system;</li>
+                    <li>- A sustainable Marketplace;</li>
+                    <li>- An NFT/NFA platform;</li>
+                    <li>- TT chat;</li>
+                    <li>- Blockchain Notarization.</li>
+                </ul>
+            </section>
+            <section class="content-second content">
+                <h3>An ESG score calculator</h3>
+                <p>
+                    The ESG score calculator shows how well a company's activities align with ESG principles. TransparenTerra specialists developed this calculator alongside leading ESG experts.
+                </p>
+                <h3>Environmental footprint calculators</h3>
+                <p>
+                    Footprint calculators calculate your company's environmental footprint based on data you provide. Once you have your company’s ESG score, you’ll get preliminary advice on how to mitigate your environmental impact and a list of sustainability experts you can turn to for professional consulting.
+                </p>
+            </section>
+            <section class="content-third content">
+                <h3>Circular economy tools</h3>
+                <p>
+                    TransparenTerra will help transform the devastating linear economy into a sustainable circular one. TransparenTerra provides digital solutions for interconnecting and managing supply chains in a circular economy.
+                </p>
+                <h3>A Trustworthy traceability system</h3>
+                <p>
+                    TransparenTerra provides software tools and equipment for supply chain traceability for better management, <span>transparency, and accountability.</span>
+                </p>
+            </section>
+            <section class="content-fourth content">
+                <h3>A sustainable Marketplace</h3>
+                <p>
+                    Vendors in the TransparenTerra marketplace provide users with all data about the raw materials they use, logistics, certificates, and other documents. Buyers can always know exactly what they’re purchasing.
+                </p>
+                <h3>An NFT/NFA platform</h3>
+                <p>
+                    The NFT/NFA platform supports owners of tokenized assets worldwide. Choose the best solution to digitize your company or products and get maximum benefits from the digital economy.
+                </p>
+            </section>
+            <section class="content-fifth content">
+                <h3>TT chat</h3>
+                <p>
+                    Dedicated chat with note-taking capabilities, an interactive whiteboard, and other features will make your consultations with experts as convenient and efficient as possible.
+                </p>
+                <h3>Blockchain Notarization</h3>
+                <p>
+                    Digital interactions require heightened security. TransparenTerra provides tools for signing and storing contracts and verifying them through blockchain.
+                </p>
+            </section>
+        </main>
+        <!-- nav -->
+        <nav class="nav">
+            <div class="nav__item nav__item_active">
+                <a class="nav__item-first HDIWmain">
+                    <span class="nav__item-title">How does it work?</span>
+                    <span class="nav__item-count">1</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first TAPmain">
+                    <span class="nav__item-title">Principles and tools</span>
+                    <span class="nav__item-count nav__item-count_active">2</span>
+                </a>
+                <div class="nav__sub-list nav__sub-list_active">
+                    <a class="nav__sub-item" id="TAPfirst"></a>
+                    <a class="nav__sub-item" id="TAPsecond"></a>
+                    <a class="nav__sub-item" id="TAPthird"></a>
+                    <a class="nav__sub-item" id="TAPfourth"></a>
+                    <a class="nav__sub-item" id="TAPfifth"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first SDmain">
+                    <span class="nav__item-title">Secure Data</span>
+                    <span class="nav__item-count">3</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first Gmain">
+                    <span class="nav__item-title">The guide</span>
+                    <span class="nav__item-count">4</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- secure-data -->
+    <div id="secure-data">
+        <div id="video-bg">
+            <div class="bg-darken"></div>
+            <video class="hd" width="100%" height="auto" preload="auto" muted="muted" autoplay="autoplay"
+            loop="loop" poster="img/secure-data/body-bg.jpg">
+                <source src="img/secure-data/video-bg.mp4" type="video/mp4"></source>
+            </video>
+            <video class="fullhd" width="100%" height="auto" preload="auto" muted="muted" autoplay="autoplay"
+            loop="loop" poster="img/how-does-it-work/body-bg.jpg">
+                <source src="img/secure-data/video-bgFULL.mp4" type="video/mp4"></source>
+            </video>
+        </div>
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/header/768logo.svg" alt="logo" class="logo__image pxBig">
+                        <img src="img/header/768logo.svg" alt="" class="logo_image px720">
+                        <img src="img/header/320logo.svg" alt="" class="logo_image px320">
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <span class="header-nav__item">
+                        <img src="img/header/web-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">ENG</span>
+                    </span>
+                    <a href="#" class="header-nav__item">
+                        <img src="img/header/exit-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">Sign in</span>
+                    </a>
+                    <a href="#" class="header-nav__item">
+                        <img src="img/header/menu-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">CLOSE</span>
+                    </a>
+                </nav>
+            </header>
+        </div>
+    
+    <!-- hero -->
+        <main>
+            <section class="main-section">
+                <div class="main-section_hero_primary">
+                    <span class="hero__top_primary">FCE
+                        <span class="hero__title_primary">Secure Data with</span>
+                        <span class="hero__mid_primary">Blockchain<span>Tokenization</span></span> 
+                        <span class="hero__bot_primary">and</span>
+                    </span>
+                </div>
+            </section>
+    <!-- content -->
+            <section class="content-first content">
+                <p>
+                    The best way to store data securely is to keep it on a distributed ledger. Blockchain technology protects data from unauthorized changes and deletion. You can rely on the authenticity of the data certified by the blockchain.
+                </p>
+                <p>
+                    We’ve developed an environmentally friendly mining system. Our blockchain does not waste energy and resources, but works just as efficiently as traditional mining.
+                </p>
+            </section>
+            <section class="content-second content">
+                <p>
+                    The TransparenTerra blockchain is a tool for: <br>
+                    - verification of user data; <br>
+                    - notarization of documents and certificates; <br>
+                    - tokenization of companies and assets; (currently available for Swiss companies only) <br>
+                    - creating an NFT/NFA on the TransparenTerra Marketplace. 
+                </p>
+            </section>
+            <section class="content-third content">
+                <h3>Verification of user data</h3>
+                <p>
+                    Business depends on data. Fast and accurate data acquisition is crucial. Blockchain makes the identification and exchange of data provided by a client or a company secure, records the facts of the data transfer, and acts as a guarantor.
+                </p>
+                <h3>Notarization of documents and certificates</h3>
+                <p>
+                    Remote interaction with documents is impossible without verification and notarization of documents. Blockchain fixes terms and conditions and ensures that every collaboration is secure and trustable. Thanks to the blockchain, no one can change your agreements, and sensitive data will remain closed.
+                </p>
+            </section>
+            <section class="content-fourth content">
+                <h3>Tokenization of companies and assets; <br> (currently available for Swiss companies only)
+                </h3>
+                <p>
+                    Tokenization is the digitization of assets. On TransparenTerra, you can tokenize any class of assets – shares, stocks, products, intellectual property, real estate, etc.  
+                </p>
+                <h3>Notarization of documents and certificates</h3>
+                <p>
+                    The NFT/NFA platform supports the owners of tokenized assets worldwide. Choose the best solution to digitize your company or products and get maximum benefits from the digital economy.
+                </p>
+            </section>
+        </main>
+        <!-- nav -->
+        <nav class="nav">
+            <div class="nav__item nav__item_active">
+                <a class="nav__item-first HDIWmain">
+                    <span class="nav__item-title">How does it work?</span>
+                    <span class="nav__item-count">1</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first TAPmain">
+                    <span class="nav__item-title">Principles and tools</span>
+                    <span class="nav__item-count">2</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first SDmain">
+                    <span class="nav__item-title">Secure Data</span>
+                    <span class="nav__item-count nav__item-count_active">3</span>
+                </a>
+                <div class="nav__sub-list nav__sub-list_active">
+                    <a class="nav__sub-item" id="SDfirst"></a>
+                    <a class="nav__sub-item" id="SDsecond"></a>
+                    <a class="nav__sub-item" id="SDthird"></a>
+                    <a class="nav__sub-item" id="SDfourth"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first Gmain">
+                    <span class="nav__item-title">The guide</span>
+                    <span class="nav__item-count">4</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- guide -->
+    <div id="guide">
+        <div id="video-bg">
+            <div class="bg-darken"></div>
+            <video class="hd" width="100%" height="auto" preload="auto" muted="muted" autoplay="autoplay"
+            loop="loop" poster="img/guide/body-bg.jpg.jpg">
+                <source src="img/guide/video-bg.mp4" type="video/mp4"></source>
+            </video>
+            <video class="fullhd" width="100%" height="auto" preload="auto" muted="muted" autoplay="autoplay"
+            loop="loop" poster="img/how-does-it-work/body-bg.jpg">
+                <source src="img/guide/video-bgFULL.mp4" type="video/mp4"></source>
+            </video>
+        </div>
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/header/768logo.svg" alt="logo" class="logo__image pxBig">
+                        <img src="img/header/768logo.svg" alt="" class="logo_image px720">
+                        <img src="img/header/320logo.svg" alt="" class="logo_image px320">
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <span class="header-nav__item">
+                        <img src="img/header/web-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">ENG</span>
+                    </span>
+                    <a href="#" class="header-nav__item">
+                        <img src="img/header/exit-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">Sign in</span>
+                    </a>
+                    <a href="#" class="header-nav__item">
+                        <img src="img/header/menu-icon.png" alt="" class="header-nav__image">
+                        <span class="header-nav__text">CLOSE</span>
+                    </a>
+                </nav>
+            </header>
+        </div>
+    
+    <!-- hero -->
+        <main>
+            <section class="main-section">
+                <div class="main-section_hero_primary">
+                    <span class="hero__top_primary">Guide
+                        <span class="hero__title_primary">The</span>
+                        <span class="hero__mid_primary">to a sustainable technological</span> 
+                        <span class="hero__bot_primary">future</span>
+                    </span>
+                </div>
+            </section>
+    <!-- content -->
+            <section class="content-first content">
+                <p>
+                    To uphold the principles of the TransparenTerra community, we’re building a sustainable and resilient future for our planet together. When you join TransparenTerra, you support:
+    
+                </p>
+                <p>
+                    - Transparency and Trust <br>
+                    - Productive interaction and cooperation <br>
+                    - Proactive climate change <br>
+                </p>
+            </section>
+            <section class="content-second content">
+                <p>
+                    and you get: <br>
+                    <br>
+                    - an inspired and conscious community, <br>
+                    - customized solutions for the new economy, <br>
+                    - advanced and environmentally friendly digital tools <br>
+                    - a community of like-minded people who make TransparenTerra a unique place for furthering positive social and economic impacts.
+                </p>
+            </section>
+            <section class="content-third content">
+                <ul>
+                    <li>
+                        Accurate data is crucial for optimal cooperation. All interactions, document flow, consultations, and purchases on TransparenTerra are protected and verified. 
+                    </li>
+                    <li>
+                        Transparency, openness, and a unique methodology for calculating the ESG score all provide an accurate picture of the sustainability of companies and projects.
+                    </li>
+                    <li>
+                        An audience of experts, passionate conscious users, and sustainable companies make TransparenTerra the right place to develop your ideas and build a local, sustainable community.
+                    </li>
+                </ul>
+            </section>
+            <section class="content-fourth content">
+                <ul>
+                    <li>
+                        Expert consultations and our digital solutions are tailored to your needs and help to develop solutions that improve the traceability and sustainability of your company or project.
+                    </li>
+                    <li>
+                        The TransparenTerra blockchain is environmentally friendly. FCE Group designed its technical developments to make a minimal impact on the environment, and compensates for shortfalls by buying CO2 offset certificates.
+                        <button class="choose-btn">Choose Your Role</button>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!-- nav -->
+        <nav class="nav">
+            <div class="nav__item nav__item_active">
+                <a class="nav__item-first HDIWmain">
+                    <span class="nav__item-title">How does it work?</span>
+                    <span class="nav__item-count">1</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first TAPmain">
+                    <span class="nav__item-title">Principles and tools</span>
+                    <span class="nav__item-count">2</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first SDmain">
+                    <span class="nav__item-title">Secure Data</span>
+                    <span class="nav__item-count">3</span>
+                </a>
+                <div class="nav__sub-list">
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                    <a class="nav__sub-item"></a>
+                </div>
+            </div>
+            <div class="nav__item">
+                <a class="nav__item-first Gmain">
+                    <span class="nav__item-title">The guide</span>
+                    <span class="nav__item-count nav__item-count_active">4</span>
+                </a>
+                <div class="nav__sub-list nav__sub-list_active">
+                    <a class="nav__sub-item" id="Gfirst"></a>
+                    <a class="nav__sub-item" id="Gsecond"></a>
+                    <a class="nav__sub-item" id="Gthird"></a>
+                    <a class="nav__sub-item" id="Gfourth"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>

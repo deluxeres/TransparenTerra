@@ -1,0 +1,221 @@
+body {
+    background-image: url(../img/tools-and-prindiples/body-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#how-does-it-work {
+    display: none;
+}
+#tools-and-principles {
+    display: block;
+}
+#secure-data {
+    display: none;
+}
+#guide {
+    display: none;
+}
+
+.main-section_hero_primary {
+    padding-top: 207px;
+    padding-left: 44px;
+}
+.hero__top_primary {
+    font-size: 200px;
+    font-weight: 800;
+    color: #FFFFFF80;
+    position: relative;
+    transition: .5s;
+}
+.hero__top {
+    font-size: 180px;
+    transition: .5s;
+}
+.hero__mid_primary, .hero__mid {
+    font-size: 100px;
+    font-weight: 600;
+    color: #FFFFFFCC;
+    position: absolute;
+    right: 25px;
+    bottom: -16px;
+    transition: .5s;
+}
+.hero__bot_primary {
+    font-size: 150px;
+    font-weight: 700;
+    color: #FFFFFF80;
+    position: absolute;
+    right: -336px;
+    bottom: -122px;
+    transition: .5s;
+}
+.hero__bot {
+    font-size: 50px;
+    right: 10px;
+    bottom: -44px;
+    transition: .5s;
+}
+.hero__title_primary {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFFCC;
+    position: absolute;
+    top: 8px;
+    right: 11px;
+    transition: .5s;
+}
+.hero__title {
+    top: 16px;
+    right: 8px;
+    transition: .5s;
+}
+.content > p {
+    margin-bottom: 28px;
+}
+.content > h31 {
+    font-weight: 600;
+}
+@media (min-width: 1499px) 
+    and (max-width: 1700px) {
+        #tools-and-principles .content-second > p:last-child, #tools-and-principles .content-fourth > p:last-child, #tools-and-principles .content-fifth > p:last-child {
+            max-width: 530px;
+        }
+        #tools-and-principles .content-third span {
+            display: block;
+        }
+}
+    @media (min-width: 1500px) 
+    and (max-width: 1630px) {
+        #tools-and-principles .content-third > p:last-child {
+            max-width: 500px;
+        }
+        
+    }
+@media (max-width: 1499px) {
+    .main-section_hero_primary {
+        padding-top: 186px;
+        padding-left: 44px;
+    }
+    .hero__top_primary, .hero__top {
+        font-size: 120px;
+    }
+    .hero__mid_primary, .hero__mid {
+        font-size: 40px;
+        right: -6px;
+        bottom: 12px;
+    }
+    .hero__bot_primary {
+        font-size: 80px;
+        bottom: -54px;
+        right: -195px;
+    }
+    .hero__bot {
+        font-size: 60px;
+        right: -6px;
+        bottom: -34px;
+    }
+    .hero__title_primary, .hero__title {
+        font-size: 35px;
+        top: -15px;
+        right: 11px;
+    }
+}
+@media (max-width: 1199px) {
+    div.main-section_hero_primary {
+        padding-top: 104px;
+        padding-left: 0;
+    }
+    div.main-section_hero {
+        padding: 25px;
+    }
+    span.hero__top_primary {
+        height: 252px;
+    }
+    span.hero__top {
+        font-size: 70px;
+        height: auto;
+    }
+    .hero__mid_primary {
+        bottom: 108px;
+    }
+    .hero__mid {
+        font-size: 15px;
+        bottom: 34px;
+        right: -30px;
+    }
+    .hero__bot_primary {
+        font-size: 60px;
+        bottom: 60px;
+        right: -58px;
+    }
+    .hero__bot {
+        font-size: 20px;
+        bottom: 15px;
+        right: -103px;
+    }
+    .hero__title {
+        font-size: 20px;
+        text-align: right;
+        right: auto;
+        left: -120px;
+        top: 15px;
+    }
+    .hero__title > span {
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    div.main-section_hero_primary {
+        padding-bottom: 10px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    div.main-section_hero {
+        padding: 6px;
+    }
+    span.hero__top_primary {
+        font-size: 70px;
+        height: auto;
+    }
+    span.hero__top {
+        font-size: 30px;
+        height: 37px;
+    }
+    .hero__mid_primary {
+        font-size: 20px;
+        right: 5px;
+        bottom: -1px;
+    }
+    .hero__mid {
+        font-size: 10px;
+        right: -22px;
+        bottom: 15px;
+    }
+    .hero__bot_primary {
+        font-size: 30px;
+        right: 5px;
+        bottom: -24px;
+    }
+    .hero__bot {
+        font-size: 12px;
+        right: -64px;
+        bottom: 5px;
+    }
+    .hero__title_primary {
+        font-size: 20px;
+        top: -10px;
+        right: 5px;
+    }
+    .hero__title {
+        font-size: 12px;
+        right: 87px;
+        top: 3px;
+    }
+}
+
+
+
+
+
+
